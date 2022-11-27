@@ -7,7 +7,7 @@
 - Numele echipei : Hello Wordle
 - Grupa : 152
 - Membrii : Lida Rani-Leon, Neculae Andrei-Fabian, Popa Bianca-Daniela, Visan-Draghicescu Emanuel-Sebastian
-- Medie : 4.33229
+- Media : 4.33229
 
 ---
 
