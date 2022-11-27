@@ -12,10 +12,10 @@
 ---
 
 ## Entropia
-- La fiecare guess, botul alege cuvantul ce imparte cat mai egal baza de date in functie de pattern-uri.
-- Apoi, cuvantul gasit este dat ca guess in Wordle, generandu-se astfel pattern-ul lui.
+- La fiecare guess, botul alege cuvantul ce imparte cat mai egal baza de date in functie de pattern-uri, adica alege cuvantul cu cea mai mare entropie.
+- Apoi, Wordle primeste cuvantul gasit ca input, generandu-i pattern-ul.
 - La noul apel, botul pastreaza din baza de date doar cuvintele care au acelasi pattern cu cel dat de Wordle fata de cuvantul curent.
-- Acesti pasi se apeleaza recursiv, urmand ca in final botul sa ghiceasca cuvantul dat, care se va afla mereu in noua baza de date.
+- Acesti pasi se repeta pana cand, in final, botul va ghici cuvantul dat, care se va afla mereu in noua baza de date.
 
 ---
 
