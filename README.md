@@ -19,7 +19,7 @@
 
 ---
 
-## Link-ul dintre procese
+## Link procese
 - Cele doua procese comunica intre ele prin fisiere txt, iar cel principal (Wordle) apeleaza botul la fiecare guess prin functia system() din windows.h
 - Comunicarea este lenta, astfel ca aflarea guess-urilor pentru fiecare cuvant dureaza 4-5 secunde.
 - Fisierele text neimportante sunt generate in folderul Temp de catre Wordle, si apoi sterse la finalul executiei.
@@ -27,6 +27,7 @@
 
 ---
 
-## Interfata grafica
+## Extra
+### Interfata grafica
 - Interfata grafica este facuta in terminal cu ajutorul header-ului Color.h
 - Aceasta se reseteaza dupa fiecare cuvant gasit, avand o pauza scurta intre cuvinte generata de functia Sleep pentru lizibilitate
