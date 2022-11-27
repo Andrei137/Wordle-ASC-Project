@@ -1,6 +1,6 @@
 # Proiect Wordle ASC
 
-<img align="right" width="150" height="150" src="https://i.imgur.com/AWDURXn.jpeg">
+<img align="right" width="200" height="200" src="https://i.imgur.com/AWDURXn.jpeg">
 
 ---
 
