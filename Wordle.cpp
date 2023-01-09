@@ -204,7 +204,7 @@ int main()
         showCurrLane(found(color));
 
         if (givenWord != currWord)
-            writeSolution << givenWord << " : " << currWord << " -> ";
+            writeSolution << givenWord << " : " << currWord << ", ";
         else
             writeSolution << givenWord << " : " << currWord;
 
@@ -224,7 +224,7 @@ int main()
         ++step;
 
         if (givenWord != currWord)
-            writeSolution << currWord << " -> ";
+            writeSolution << currWord << ", ";
         else
             writeSolution << currWord << '\n';
 
@@ -246,7 +246,7 @@ int main()
             ++step;
 
             if (!found(color))
-                writeSolution << currWord << " -> ";
+                writeSolution << currWord << ", ";
             else
                 writeSolution << currWord << '\n';
         }
