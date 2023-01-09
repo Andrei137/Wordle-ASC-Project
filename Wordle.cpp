@@ -203,9 +203,9 @@ int main()
         showCurrLane(found(color));
 
         if (givenWord != currWord)
-            writeSolution << givenWord << " : " << currWord << ", ";
+            writeSolution << givenWord << ", " << currWord << ", ";
         else
-            writeSolution << givenWord << " : " << currWord;
+            writeSolution << givenWord << ", " << currWord;
 
         I_O().output(write, "Temp/firstTwoGuesses.txt");
         I_O().output(write, "Temp/wordColor.txt");
