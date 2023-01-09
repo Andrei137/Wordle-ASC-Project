@@ -186,8 +186,7 @@ int main()
     system("g++ -std=gnu++2a Bot.cpp -o Bot.exe -O2");
     system("Bot");
 
-    // for (i = 0; i < alph.len; ++i)
-    for (i = 0; i < 10; ++i)
+    for (i = 0; i < alph.len; ++i)
     {
         step = 1;
         currIndex = 0;
